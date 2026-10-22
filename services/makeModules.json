@@ -1,0 +1,1338 @@
+{
+ "generatedAt": "2026-09-28",
+ "note": "Real Make module IDs + versions from exported blueprints: your own exports, public GitHub blueprints, and Make's official integromat/make-skills repo. An empty versions list means the ID is confirmed but its version is not.",
+ "modules": {
+  "ai-local-agent:RunLocalAIAgent": {
+   "versions": [
+    0
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "airtable:ActionCreateRecord": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": ""
+  },
+  "airtable:ActionGetRecord": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "airtable:ActionSearchRecords": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": ""
+  },
+  "airtable:ActionUpdateRecords": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": ""
+  },
+  "airtable:upsertRecord": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "anthropic-claude:createAMessage": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Anthropic Claude Create a message"
+  },
+  "anymailfinder:emailSearchDecisionMaker": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "anymailfinder:emailSearchPerson": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "apify:fetchDatasetItems": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "assembly-ai:TranscribeAudio": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "assembly-ai:UploadFile": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "aweber:CreateSubscriber": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "aweber:FindSubscribersForAccount": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "aweber:UpdateSubscriber": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "browse-ai:onTaskFinished": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "builtin:BasicAggregator": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": "Array aggregator"
+  },
+  "builtin:BasicFeeder": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": "Iterator"
+  },
+  "builtin:BasicIfElse": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "make-official",
+    "your-export"
+   ],
+   "name": "If-else"
+  },
+  "builtin:BasicMerge": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": "Merge (If-else only)"
+  },
+  "builtin:BasicRepeater": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Repeater"
+  },
+  "builtin:BasicRouter": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Router"
+  },
+  "builtin:Break": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Error handler Break"
+  },
+  "builtin:Commit": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "builtin:Ignore": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": "Error handler Ignore"
+  },
+  "builtin:Resume": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "builtin:Rollback": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "builtin:ThrowError": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "builtin:ThrowWarning": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "calendly:inviteeCreated": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "canvas-lms:makeApiCall": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "cloudconvert:ConvertFile": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "contentful:createAnEntry": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "creatomate:RenderTemplate": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "csv:ParseCSV": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "custom-js:execute": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "datastore:AddRecord": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Data store Add/replace a record"
+  },
+  "datastore:SearchRecord": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Data store Search records"
+  },
+  "docusign:CreateEnvelope": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "email:ActionGetEmails": {
+   "versions": [
+    7
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "email:ActionSendEmail": {
+   "versions": [
+    6,
+    7
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Email Send an email"
+  },
+  "facebook-lead-ads:NewLeadMultiple": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "facebook-pages:CreatePost": {
+   "versions": [
+    6
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "gateway:CustomMailHook": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "gateway:CustomWebHook": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": "Custom webhook"
+  },
+  "gateway:WebhookRespond": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Webhook response"
+  },
+  "gemini-ai:extractStructuredData": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "gemini-ai:simpleTextPrompt": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "github:createAComment": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "github:createIssue": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-calendar:createAnEvent": {
+   "versions": [
+    5
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-calendar:searchEvents": {
+   "versions": [
+    5
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-cloud-tts:synthesizeSpeech": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-docs:createADocument": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-docs:createADocumentFromTemplate": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-docs:exportADocument": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-drive:ActionCreateFolder": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-drive:createAFolder": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-drive:getAFile": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-drive:makeApiCall": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-drive:moveAFileIntoAFolder": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-drive:searchForFilesFolders": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-drive:shareAFileFolder": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-drive:uploadAFile": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-drive:watchFilesInAFolder": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-email:ActionSendEmail": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Gmail Send an email (older)"
+  },
+  "google-email:createADraft": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-email:executeEmailSearchQuery": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-email:markAnEmailAsRead": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-email:sendAnEmail": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "google-email:TriggerNewEmail": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "google-email:triggerWatchNewEmails": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-sheets:addMultipleRows": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-sheets:addRow": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Sheets Add a row"
+  },
+  "google-sheets:clearValuesFromRange": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-sheets:createSpreadsheet": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-sheets:filterRows": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Sheets Search rows"
+  },
+  "google-sheets:filterRowsAdvanced": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-sheets:makeAPICall": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "google-sheets:updateCell": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "google-sheets:updateRow": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Sheets Update a row"
+  },
+  "google-sheets:watchRows": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Sheets Watch rows"
+  },
+  "http:ActionSendData": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "HTTP Make a request (legacy v3)"
+  },
+  "http:ActionSendDataAPIKeyAuth": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "HTTP Make API key auth request"
+  },
+  "http:DownloadFile": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "http:MakeRequest": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "your-export"
+   ],
+   "name": ""
+  },
+  "hubspotcrm:createCustomObject": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "hubspotcrm:updateCustomObject": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "instagram-business:WatchMedia": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "instantly:addLeadToCampaign": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "json:ParseJSON": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Parse JSON"
+  },
+  "json:TransformToJSON": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Create/Transform to JSON"
+  },
+  "linkedin:CreateTextShare": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "markdown:Compile": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "microsoft-email:createAMessage": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "microsoft-teams:sendMessage": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "monday:ChangeMultipleColumnValues": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "monday:CreateItem": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "openai-gpt-3:CreateCompletion": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "OpenAI Create a completion"
+  },
+  "openai-gpt-3:createModelResponse": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "openai-gpt-3:CreateTranscription": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "openai-gpt-3:generateAnAudio": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "pdf-co:PDFToAnything": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "placid-app:createImage": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "regexp:AdvancedParser": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Text parser Match pattern"
+  },
+  "regexp:HTMLToText": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Text parser HTML to text"
+  },
+  "regexp:Replace": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Text parser Replace"
+  },
+  "scenario-service:ReturnData": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": "Scenarios: return output"
+  },
+  "scenario-service:StartSubscenario": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": "Scenarios: start subscenario trigger"
+  },
+  "sendgrid:sendMail": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "slack:CreateMessage": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Slack Create a message"
+  },
+  "slack:ListChannels": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:createCustomer": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:getPaymentIntent": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:listAllLineItems": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:listInvoices": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:listPaymentIntents": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:searchCustomers": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "stripe:WatchCharges": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "suitedash:getContact": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "suitedash:listContacts": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "suitedash:makeAnApiCall": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "telegram:SendReplyMessage": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "toggl:TriggerEntries": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "twilio:SendSMS": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "twilio:WatchMessages": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "twitter:createATweet": {
+   "versions": [
+    6
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "typeform:ListResponses": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "typeform:WatchEventsWithResponses": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "util:BasicTrigger": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "util:ComposeTransformer": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Compose a string"
+  },
+  "util:FunctionIncrement": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": "Increment function"
+  },
+  "util:FunctionSleep": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint",
+    "your-export"
+   ],
+   "name": "Sleep"
+  },
+  "util:GetVariable2": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Get variable"
+  },
+  "util:NumericalAggregator": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": "Numeric aggregator"
+  },
+  "util:SetVariable": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "util:SetVariable2": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Set variable"
+  },
+  "util:SetVariables": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Set multiple variables"
+  },
+  "util:TableAggregator": {
+   "versions": [],
+   "sources": [
+    "make-official"
+   ],
+   "name": ""
+  },
+  "util:TextAggregator": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": "Text aggregator"
+  },
+  "vapi:createOutboundPhoneCall": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "vapi:endOfCallReport": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "webflow:watchSites": {
+   "versions": [
+    2
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "youtube:pollingVideos": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "youtube:universal": {
+   "versions": [
+    4
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "zohocrm:createObject": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "zohocrm:searchObjects": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "zohocrm:updateObject": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "zohocrm:updateRelatedRecord": {
+   "versions": [
+    3
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  },
+  "zoom:createMeeting": {
+   "versions": [
+    1
+   ],
+   "sources": [
+    "public-blueprint"
+   ],
+   "name": ""
+  }
+ }
+}

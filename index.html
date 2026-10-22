@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onyx Logic | AI Automation Specialist Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#FBFBFB',
+              secondary: '#0070FF',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Ibarra Real Nova', 'serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            fontSize: {
+              'base': '1rem',
+            }
+          },
+        },
+      }
+
+      // Global Neon Click Effect
+      document.addEventListener('mousedown', (e) => {
+        const spark = document.createElement('div');
+        spark.className = 'neon-spark';
+        spark.style.left = `${e.clientX}px`;
+        spark.style.top = `${e.clientY}px`;
+        document.body.appendChild(spark);
+        
+        setTimeout(() => {
+          spark.remove();
+        }, 600);
+      });
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --onyx-black: #FBFBFB;
+        --primary-white: #1A1A1A;
+        --neon-blue: #0070FF;
+        --neon-blue-glow: rgba(0, 112, 255, 0.05);
+        --glass-bg: rgba(251, 251, 251, 0.9);
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+        overscroll-behavior: none;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--onyx-black);
+        color: var(--primary-white);
+        letter-spacing: -0.01em;
+        font-size: 17px;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      h1, h2, h3, h4 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+
+      ::selection {
+        background: rgba(0, 112, 255, 0.1);
+        color: var(--primary-white);
+      }
+
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      .page-transition {
+        animation: fadeIn 0.4s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .neon-accent { color: var(--neon-blue); }
+      .neon-bg { background-color: var(--neon-blue); }
+      .neon-border { border-color: var(--neon-blue); }
+      
+      .grid-bg {
+        position: fixed;
+        inset: 0;
+        background-image: 
+          radial-gradient(circle at 2px 2px, rgba(0, 0, 0, 0.03) 1px, transparent 0);
+        background-size: 32px 32px;
+        z-index: -1;
+      }
+
+      .glass {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px) saturate(160%);
+        border: 1px solid rgba(0, 0, 0, 0.04);
+      }
+
+      .glass-blue {
+        background: rgba(0, 112, 255, 0.02);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(0, 112, 255, 0.05);
+      }
+
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .page-transition {
+        animation: page-in 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      @keyframes page-in {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      input::placeholder, textarea::placeholder {
+        color: #A1A1AA;
+      }
+
+      button:active, a:active, .neon-click:active {
+        transform: scale(0.98);
+        animation: neon-pulse 0.4s cubic-bezier(0, 0, 0.2, 1);
+      }
+
+      @keyframes neon-pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(0, 112, 255, 0.7);
+        }
+        100% {
+          box-shadow: 0 0 0 20px rgba(0, 112, 255, 0);
+        }
+      }
+
+      .neon-spark {
+        position: fixed;
+        width: 4px;
+        height: 4px;
+        background: var(--neon-blue);
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+        animation: spark-out 0.6s ease-out forwards;
+      }
+
+      @keyframes spark-out {
+        0% {
+          transform: translate(-50%, -50%) scale(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translate(-50%, -50%) scale(10);
+          opacity: 0;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="h-full">
+    <div class="grid-bg"></div>
+    <div id="root" class="h-full"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

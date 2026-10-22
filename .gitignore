@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.*
+firebase-applet-config.json
+.onyx-cache
+*.pem
+*.key
+CLAUDE.md
+AGENTS.md
+.claude/

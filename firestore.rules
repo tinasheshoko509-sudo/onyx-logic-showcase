@@ -1,0 +1,58 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default catch-all denies all access by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Global helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function isValidExecutionLog(data) {
+      return data.userId is string 
+        && data.userId.size() <= 128
+        && data.username is string
+        && data.username.size() <= 128
+        && data.toolId is string
+        && data.toolId.size() <= 64
+        && data.toolName is string
+        && data.toolName.size() <= 128
+        && data.timestamp is number
+        && data.timestamp > 0
+        && data.input is string
+        && data.input.size() <= 1048576
+        && data.output is string
+        && data.output.size() <= 1048576
+        && (!data.keys().hasAll(['score']) || data.score is number);
+    }
+
+    // Rules for User specific execution logs sub-collection
+    match /users/{userId}/execution_logs/{logId} {
+      allow create: if isOwner(userId)
+        && isValidId(logId)
+        && incoming().userId == request.auth.uid
+        && isValidExecutionLog(incoming());
+
+      allow read: if isOwner(userId);
+      
+      // Execution logs are immutable as audit records
+      allow update, delete: if false;
+    }
+  }
+}
